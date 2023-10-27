@@ -1,0 +1,4 @@
+@import "reset.css"; /* сбрoc настроек браузера */
+@import "responsive.css"; /* адаптивность */
+@import "nav.css"; /* сбрoc настроек браузера */
+@import "main.css"; /* контент / содержимое  */
