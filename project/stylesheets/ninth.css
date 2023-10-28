@@ -1,0 +1,54 @@
+.ninth {
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 68px;
+}
+
+.ninth img {
+  height: 1023px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ninth p {
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.6px;
+}
+
+.ninth p span {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -3.2px;
+  margin-right: 15px;
+}
+
+.ninth p.first {
+  top: 67px;
+  right: 199px;
+}
+
+.ninth p.second {
+  top: 245px;
+  left: 358px;
+}
+
+.ninth p.third {
+  top: 430px;
+  right: 296px;
+}
+
+.ninth p.fourth {
+  bottom: 305px;
+  left: 168px;
+}
+
+.ninth p.fifth {
+  bottom: 98px;
+  left: 468px;
+}

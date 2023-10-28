@@ -1,0 +1,105 @@
+.firstblock {
+  position: relative;
+}
+
+.firstblock p {
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.firstblock p.red {
+  color: #f50000;
+  font-size: 180px;
+}
+
+.firstblock p.white {
+  color: #ebe8dd;
+  font-size: 200px;
+}
+
+.firstblock div {
+  position: absolute;
+}
+
+div.piano1 {
+  position: relative;
+  width: 100%;
+}
+
+.g {
+  top: 241px;
+  left: 35px;
+}
+.a {
+  top: 126px;
+  left: 231px;
+}
+.r {
+  top: 244px;
+  left: 417px;
+}
+.r {
+  top: 244px;
+  left: 417px;
+}
+.a2 {
+  top: 327px;
+  left: 565px;
+}
+.m {
+  top: 106px;
+  left: 709px;
+}
+.o {
+  top: 250px;
+  left: 910px;
+}
+.n {
+  top: 140px;
+  left: 1081px;
+}
+.d {
+  top: 144px;
+  left: 1262px;
+}
+.ff {
+  top: 525px;
+  left: 39px;
+}
+.oo {
+  top: 483px;
+  left: 169px;
+}
+.nn {
+  top: 576px;
+  left: 404px;
+}
+.tt {
+  top: 661px;
+  left: 564px;
+}
+.bb {
+  top: 616px;
+  left: 727px;
+}
+.aa {
+  top: 611px;
+  left: 921px;
+}
+.nnn {
+  top: 541px;
+  left: 1071px;
+}
+.dd {
+  top: 477px;
+  left: 1236px;
+}
+.eb {
+  top: 696px;
+  left: 21px;
+}
+
+.eb p.white {
+  font-size: 140px;
+}

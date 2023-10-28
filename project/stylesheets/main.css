@@ -1,269 +1,49 @@
-/* body{
-    width: 100%;
-}
-h1, h2, h3, h4{
-    font-family: 'EB Garamond', serif;
-    font-weight: 800;
-    font-size: 130px;
-   
+body {
+  width: 100%;
+  background-color: #ebe8dd;
+  font-family: EB Garamond;
+  color: #000;
+  overflow-x: hidden;
 }
 
-p{
-    font-family: 'EB Garamond', serif;
-    font-size: 60px;
-    
-} */
-h1 {
-  color: #f50000;
-  text-align: right;
-  font-family: EB Garamond;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 700;
-}
-h2 {
-  color: #000;
-  font-family: EB Garamond;
+.title {
   font-size: 36px;
   font-style: italic;
   font-weight: 400;
-}
-body {
-  font-family: EB Garamond;
-  color: #000;
-}
-
-.piano1 {
-  position: absolute;
-  width: 100%;
-  height: 1024px;
-}
-
-.g {
-  top: 241px;
-  left: 35px;
-  color: #f50000;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.a {
-  top: 126px;
-  left: 231px;
-  color: #f50000;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.r {
-  top: 244px;
-  left: 417px;
-  color: #f50000;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.r {
-  top: 244px;
-  left: 417px;
-  color: #f50000;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.a2 {
-  top: 327px;
-  left: 565px;
-  color: #f50000;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.m {
-  top: 106px;
-  left: 700px;
-  color: #f50000;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.o {
-  top: 250px;
-  left: 898px;
-  color: #f50000;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.n {
-  top: 140px;
-  left: 1063px;
-  color: #f50000;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.d {
-  top: 144px;
-  left: 1242px;
-  color: #f50000;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.ff {
-  top: 521px;
-  left: 39px;
-  color: #ebe8dd;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.oo {
-  top: 483px;
-  left: 164px;
-  color: #ebe8dd;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.nn {
-  top: 576px;
-  left: 410px;
-  color: #ebe8dd;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.tt {
-  top: 661px;
-  left: 564px;
-  color: #ebe8dd;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.bb {
-  top: 616px;
-  left: 727px;
-  color: #ebe8dd;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.aa {
-  top: 611px;
-  left: 916px;
-  color: #ebe8dd;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.nnn {
-  top: 541px;
-  left: 1058px;
-  color: #ebe8dd;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.dd {
-  top: 477px;
-  left: 1236px;
-  color: #ebe8dd;
-  font-family: EB Garamond;
-  font-size: 180px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.eb {
-  top: 696px;
-  left: 21px;
-  color: #ebe8dd;
-  font-family: EB Garamond;
-  font-size: 140px;
-  font-style: normal;
-  font-weight: 500;
-  position: absolute;
-}
-.secondblock {
-  position: relative;
-  width: 1440px;
-  height: 1024px;
-}
-.firsth1 {
-  margin-left: 140px;
-}
-.firsth2 {
-  margin-left: 140px;
-}
-.firstbody {
-  max-width: 436px;
-}
-.secondbody {
-  max-width: 436px;
-  margin-left: 600px;
-  margin-top: 0px;
-}
-.people {
-  position: absolute;
-  width: 100%;
-  height: 1024px;
-}
-/* .secondblock {
-  position: relative;
-  width: 1440px;
-  height: 800px;
-  color: #645007;
-} */
-/* }
-
-p {
-  max-width: 430px;
-}
-
-p:last-child {
-  margin-left: 40%;
-}
-body {
-  max-width: 1171px;
+  line-height: 100%;
+  max-width: 1160px;
   margin: 0 auto;
 }
 
-section {
+.title.right {
+  text-align: right;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  padding-right: 80px;
+}
+
+footer {
   display: flex;
   flex-direction: column;
-} */
+  justify-content: center;
+  align-items: center;
+  background-color: #211A6A;
+  height: 488px;
+}
+
+footer div {
+  display: flex;
+  gap: 53px;
+  margin-top: 10px;
+}
+
+footer p {
+  color: #EBE8DD;
+  text-align: center;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 81.5%;
+}

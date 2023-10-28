@@ -1,0 +1,88 @@
+.fifth {
+  position: relative;
+}
+
+.fifth .jazz {
+  position: absolute;
+  top: 201px;
+  right: 174px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fifth .jazz span {
+  color: #211a6a;
+  font-size: 120px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 1.12em;
+  letter-spacing: -4.8px;
+}
+
+.fifth span.first {
+  padding-left: 20px;
+}
+
+.fifth span.regular {
+  font-weight: 400;
+}
+
+.fifth .top-text {
+  color: #f50000;
+  font-size: 47.283px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: -1.891px;
+  position: absolute;
+  top: 485px;
+  left: 299px;
+}
+
+.fifth .top-text span {
+  margin-left: -24px;
+}
+
+.fifth .center-text {
+  position: absolute;
+  bottom: 484px;
+  left: 235px;
+  display: flex;
+  flex-direction: column;
+  color: #f50000;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -4.8px;
+}
+
+.fifth .center-text .second {
+  margin-top: -42px;
+  margin-left: -158px;
+}
+
+.fifth .bottom-text {
+  position: absolute;
+  bottom: 258px;
+  left: 373px;
+  display: flex;
+  align-items: center;
+}
+
+.fifth .bottom-text p {
+  color: #211a6a;
+  font-size: 44.138px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 0.6em;
+  letter-spacing: -1.766px;
+}
+
+.fifth .bottom-text p span {
+  font-size: 24px;
+}
+
+.fifth .bottom-text p.open {
+  font-size: 120px;
+  margin-top: -44px;
+}

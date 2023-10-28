@@ -1,0 +1,36 @@
+.secondblock {
+  position: relative;
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-bottom: 42px;
+}
+
+.secondblock h1 {
+    color: #f50000;
+    text-align: right;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.secondblock h2 {
+    margin-top: 20px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.secondblock p {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1em;
+    width: 475px;
+}
+
+.secondblock .first {
+    margin-top: 40px;
+}
+
+.secondblock .second {
+    margin-left: 525px;
+}
