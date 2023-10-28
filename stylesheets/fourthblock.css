@@ -1,0 +1,66 @@
+.fourthblock {
+  position: relative;
+  padding-top: 45px;
+}
+
+.fourthblock .people {
+  width: 100%;
+}
+
+.fourthblock span {
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  letter-spacing: -4.4px;
+}
+
+.fourthblock .do {
+  left: 140px;
+  top: 214px;
+}
+
+.fourthblock .re {
+  font-style: italic;
+  left: 240px;
+  top: 318px;
+}
+
+.fourthblock .fa {
+  left: 559px;
+  top: 67px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.fourthblock .me {
+  left: 434px;
+  top: 165px;
+  font-weight: 500;
+}
+
+.fourthblock .sol {
+  left: 737px;
+  top: 280px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.fourthblock .la {
+  left: 744px;
+  top: 383px;
+  font-weight: 600;
+}
+
+.fourthblock .si {
+  left: 1137px;
+  top: 178px;
+  font-weight: 700;
+}
+
+.fourthblock .doo {
+  left: 1153px;
+  top: 280px;
+  font-style: italic;
+  font-weight: 800;
+}

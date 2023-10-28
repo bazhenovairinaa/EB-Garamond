@@ -1,0 +1,43 @@
+.seventh {
+    position: relative;
+    margin-top: -60px;
+    margin-bottom: 120px;
+}
+
+.seventh div {
+    position: absolute;
+    max-width: 600px;
+    transform: rotate(-15deg);
+}
+
+.seventh .title {
+    color: #F50000;
+    text-align: center;
+    font-size: 49.737px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.seventh .subtitle {
+    font-size: 20.649px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    max-width: 320px;
+    margin-left: 211px;
+    margin-top: 35px;
+}
+
+.seventh div.first {
+    top: 394px;
+    left: -187px;
+}
+
+.seventh div.second {
+    top: 322px;
+    right: -264px;
+}
+
+.seventh div.second .subtitle {
+    margin-left: 186px;
+}

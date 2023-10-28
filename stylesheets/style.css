@@ -1,0 +1,13 @@
+@import "reset.css"; /* сбрoc настроек браузера */
+@import "responsive.css"; /* адаптивность */
+@import "nav.css"; /* сбрoc настроек браузера */
+@import "main.css"; /* контент / содержимое  */
+@import "firstblock.css"; /* контент первого блока  */
+@import "secondblock.css"; /* контент второго блока  */
+@import "thirdblock.css"; /* контент третьего блока  */
+@import "fourthblock.css"; /* контент четвертого блока  */
+@import "fifthblock.css"; /* контент пятого блока  */
+@import "seventh.css"; /* контент седьмого блока  */
+@import "eighth.css"; /* контент восьмого блока  */
+@import "ninth.css"; /* контент девятого блока  */
+@import "tenth.css"; /* контент десятого блока  */

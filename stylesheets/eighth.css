@@ -1,0 +1,21 @@
+.eighth {
+  position: relative;
+  margin-bottom: 230px;
+}
+
+.eighth p {
+  position: absolute;
+  top: 80px;
+  right: 250px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  width: 452px;
+}
+
+.eighth img {
+  height: 730px;
+  object-fit: cover;
+  width: 100%;
+}
